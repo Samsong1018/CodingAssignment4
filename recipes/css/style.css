@@ -1,0 +1,146 @@
+/* If you feel like it, you can check out bumpertheband.com
+which I made a couple months ago, or todolander.com which is
+more recent. todolander you do have to sign up for or you can
+ask and ill send a video.
+*/
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #f5f0e8;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #8B4513;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  margin: 0;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  color: #8B4513;
+  font-size: 22px;
+}
+
+h3 {
+  color: #5a3010;
+  font-size: 18px;
+}
+
+h3.rate {
+  color: #8B4513;
+}
+
+p {
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.subtitle {
+  font-style: italic;
+  color: #f5deb3;
+  font-size: 16px;
+}
+
+strong {
+  color: #5a3010;
+}
+
+ul {
+  line-height: 1.8;
+}
+
+ol {
+  line-height: 1.9;
+}
+
+li {
+  font-size: 15px;
+}
+
+/* layout */
+.wrapper {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.wrapper div {
+  flex: 1;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+fieldset {
+  width: 250px;
+  border: 1px solid #8B4513;
+  background-color: #fff8f0;
+  padding: 10px;
+}
+
+legend {
+  font-size: 14px;
+  color: #5a3010;
+  font-weight: bold;
+}
+
+input[type="radio"] {
+  margin-left: 6px;
+  margin-right: 3px;
+}
+
+input[type="text"] {
+  border: 1px solid #aaa;
+  padding: 4px 6px;
+  width: 90px;
+  font-size: 14px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+thead {
+  background-color: #8B4513;
+  color: white;
+}
+
+th {
+  padding: 8px 10px;
+  text-align: left;
+}
+
+tbody tr {
+  border-bottom: 1px solid #ddd;
+}
+
+td {
+  padding: 7px 10px;
+}
+
+footer {
+  background-color: #333;
+  color: #f5deb3;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+footer a {
+  color: #f5deb3;
+  text-decoration: underline;
+}
